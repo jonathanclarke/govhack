@@ -1,0 +1,24 @@
+development:
+  adapter: postgresql
+  database: govhack_development_jenkins
+  username: devuser
+  password: devuser
+  encoding: unicode
+  host: localhost
+
+test: &test
+  adapter: postgresql
+  database: govhack_test_jenkins
+  username: devuser
+  password: devuser
+  encoding: unicode
+  host: localhost
+
+cucumber:
+  adapter: postgresql
+  database: govhack_test_jenkins
+  username: devuser
+  password: devuser
+  encoding: unicode
+  host: localhost
+

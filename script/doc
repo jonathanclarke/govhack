@@ -1,0 +1,2 @@
+#!/bin/bash
+sdoc -i app/ -i lib/ -x tmp/ -x db/ -x test/ -x config
