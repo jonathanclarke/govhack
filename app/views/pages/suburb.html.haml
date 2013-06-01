@@ -7,53 +7,78 @@
         %span{ :class => "divider" }
           = "/"
       %li
-        = link_to @university["name"]
+        = link_to @university["name"], university_path( :university_permalink => @university["permalink"], :suburb_permalink => @suburb["permalink"])
         %span{ :class => "divider" }
           = "/"
       %li{ :class => "active" }
-        = link_to @suburb["name"]
-    %div{ :class => "hero-unit" }
-      %h2= @suburb["name"]
-      %table
-        %tr
-          %th Distance
-          %td 6km
+        = link_to @suburb["name"], suburb_path(:university_permalink => @university["permalink"], :suburb_permalink => @suburb["permalink"])
 
-        %tr
-          %th Affordability
-          %td
-        %tr
-          %th Gender Orientation
-          %td
-        %tr
-          %th Ethnicity
-          %th Chinese, Irish, French
-        %tr
-          %th Travel
-          %td Bus / Car / Walk
-          
+        
+    -# #suburb-show.span12
+    -#   %h1= @suburb["name"]
+    -#   .span6
+        -# %h2= @suburb["name"]
+      -# %section{ :id => "hero-breakdown" } 
+      -#   %div{ :id => "distance" }
+      -#     %h3
+      -#       Distance
+      -#       %span
+      -#         6km
+      -#   %div{ :id => "distance" }
+      -#     %h3
+      -#       Affordability
+      -#       %span
+      -#         $$$$$
+      -#   %div{ :id => "ethnicity" }
+      -#     %h3
+      -#       Ethnicity
+      -#       %span
+      -#         Chinese, Irish, French
+      -#   %div{ :id => "travel" }
+      -#     %h3
+      -#       = t(:travel_breakdown)
+      -#       %span
+
+
+    #suburb-show
+      %h1
+        = @suburb["name"]
+      
+      .span12
+        .span5.left
+          %section#economy.widgit.white
+            %p= @suburb["description_#{ I18n.locale }"]
+            %p= @suburb["history_#{ I18n.locale }"]
             
-    %section
-      
-      %h2 Description
-      %h2 History
-
-    #meta
-      .span12
-        .span5.left
-          %section#crime.widgit.yellow
-            %h1 Crime
         .span2
+          
         .span5.right
-          %section#economy.widgit.green
-            %h1 Economy
-      
+          %section#travel.widgit.white
+            %h2= t(:modes_of_transport)
+            %ul
+              - (0..@suburb["summary"]["travel_car"].to_i ).each do |i|
+                %li= image_tag "travel/car.png", :size => "20x20"
+            %ul
+              - (0..@suburb["summary"]["travel_bus"].to_i ).each do |i|
+                %li= image_tag "travel/bus.png", :size => "20x20"
+            %ul
+              - (0..@suburb["summary"]["travel_moto"].to_i ).each do |i|
+                %li= image_tag "travel/motorcycle.png", :size => "20x20"
+            %ul
+              - (0..@suburb["summary"]["travel_tram"].to_i ).each do |i|
+                %li= image_tag "travel/tram.png", :size => "20x20"
+            %ul
+              - (0..@suburb["summary"]["travel_walk"].to_i ).each do |i|
+                %li= image_tag "travel/walk.png", :size => "20x20"
+            %ul
+              - (0..@suburb["summary"]["travel_bicycle"].to_i ).each do |i|
+                %li= image_tag "travel/bicycle.png", :size => "20x20"
+      .row-fluid
+        .span12
+          %section#photos.widgit.white
+            %h2= t(:photos_of_the_area)
+            - @suburb["photos"].each do |photo|
+              = image_tag photo["thumbUrl"], :size => "200x200", :alt => photo["title_en"], :title => photo["title_en"]
+            
 
-      .span12
-        .span5.left
-          %section#population.widgit.green
-            %h1 Population
-        .span2
-        .span5.right
-          %section#economy.widgit.yellow
-            %h1 Industry   
+        

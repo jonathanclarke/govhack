@@ -66,47 +66,19 @@ header{
    padding:0;
 }
 .hero-unit{
+   padding: 10px 20px 10px 20px ;
    h2{
-   
+      font-size:20px;
+      margin: 0;
    }
 }
-#meta{
+#suburb-show{
    .span12{
       margin: 0;
       padding: 0;
       .span5{
          margin: 0;
          padding: 0;
-         section.widgit{
-            border:1px solid red;
-            background-color: yellow;
-            padding: 10px;
-            -moz-border-radius: 15px;
-            border-radius: 15px;
-            margin-bottom: 20px;
-            -moz-box-shadow: 10px 10px 5px #888;
-            -webkit-box-shadow: 10px 10px 5px #888;
-            box-shadow: 10px 10px 5px #888;
-            h1{
-               font-size: 24px;
-            }
-            
-         }
-         section.yellow{
-            border: 2px solid rgb(241, 196, 15);
-            background-color: rgb(241, 196, 15);
-            h1{
-               color: #fff;
-            }
-         }
-         section.green{
-            border: 2px solid rgb(26, 188, 156);
-            background-color: rgb(26, 188, 156);
-            h1{
-               color: #fff;
-               
-            }
-         }
 
       }
       .left{
@@ -118,14 +90,57 @@ header{
    }
 }
 
-.suburb.span12{
-   border:1px solid #666;
+#suburb-show{
+   section.widgit{
+      border:1px solid red;
+      background-color: yellow;
+      padding: 10px;
+      -moz-border-radius: 15px;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      -moz-box-shadow: 10px 10px 5px #888;
+      -webkit-box-shadow: 10px 10px 5px #888;
+      box-shadow: 10px 10px 5px #888;
+      h2{
+         font-size: 24px;
+      }
+      
+   }
+   section.yellow{
+      border: 2px solid rgb(241, 196, 15);
+      background-color: rgb(241, 196, 15);
+      h2{
+         color: #fff;
+      }
+   }
 
-   padding: 20px;
-   margin: 0 0 5px 0;
 
-   font-size: 20px;
-  
+   section.white{
+      border: #fff;
+      background-color: #fff;
+      h2{
+         color: #000;
+         
+      }
+   }
+
+   section.green{
+      border: 2px solid rgb(26, 188, 156);
+      background-color: rgb(26, 188, 156);
+      h1{
+         color: #fff;
+         
+      }
+   }
+   .suburb.span12{
+      border:1px solid #666;
+
+      padding: 20px;
+      margin: 0 0 5px 0;
+
+      font-size: 20px;
+      
+   }
 }
 .odd{
    background:#666;
@@ -148,3 +163,36 @@ section#surrounding_suburbs{
       margin: 0 0 10px 0;
    }
 }
+section#hero-breakdown{
+   table{
+      border:1px solid red;
+      tr{
+         th{
+            border:1px solid red;
+            text-align:left;
+         }
+         td{
+            border:1px solid red;
+         }
+      }
+   }
+  
+}
+
+
+section#travel{
+   ul{
+      margin:0;
+      padding:0;
+      li{
+
+         display:inline;
+         min-width:15px;
+         text-align:left;
+         padding: 0;
+         margin: 0;
+      }
+   }
+}
+/* Internation education and research industry action plan NSW GOV */
+

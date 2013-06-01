@@ -11,7 +11,8 @@
             %i{ :class=>"icon-globe" }
           
           %section#phone
-            = @university["phone"]
+            %a{ :href => "tel:#{ @university["phone"] }" }
+              = @university["phone"]
             %i{ :class=>"icon-envelope" }
             
   .row-fluid
