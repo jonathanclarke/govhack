@@ -8,6 +8,8 @@
     "longitude": "151.201865199999930000",
     "suburbs":
     [
+	{ "name": "Darlinghurst", "permalink": "darlinghurst", "longitude": "151.21862", "latitude":"-33.88068" },
+
 	{ "name": "Newtown", "permalink": "newtown", "longitude": "", "latitude":"" },
 	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" },
 	{ "name": "Glebe", "permalink": "glebe", "longitude": "", "latitude":"" },

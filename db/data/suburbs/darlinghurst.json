@@ -1,22 +1,18 @@
 {
     "name": "Darlinghurst",
-    "permalink", "darlinghurst",
+    "permalink": "darlinghurst",
     "address": "Darlinghurst, 2008, Australia",
     "postcode": "2008",
     "state": "New South Wales",
     "city": "Sydney",
+    "description_en": "",
+    "description_hi": "",
+    "description_zh": "",
     "latitude": "",
     "longitude": "",
     "history_en": "",
     "history_zh": "",
     "history_hi": "",
-    "average_monthly_rental": "",
-    "photos":
-    [
-	{ "url": "http://", "caption": "" },
-    ],
-    "local_businesses":
-    [
-	{ "id": "001", "name": "", "permalink": "", "longitude": "", "latitude": ""}
-    ]
+    "average_monthly_rental": ""
+
 }

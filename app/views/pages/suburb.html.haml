@@ -1,0 +1,59 @@
+.container-fluid
+  .row-fluid
+
+    %ul{ :class => "breadcrumb" }
+      %li
+        = link_to "Home", root_path
+        %span{ :class => "divider" }
+          = "/"
+      %li
+        = link_to @university["name"]
+        %span{ :class => "divider" }
+          = "/"
+      %li{ :class => "active" }
+        = link_to @suburb["name"]
+    %div{ :class => "hero-unit" }
+      %h2= @suburb["name"]
+      %table
+        %tr
+          %th Distance
+          %td 6km
+
+        %tr
+          %th Affordability
+          %td
+        %tr
+          %th Gender Orientation
+          %td
+        %tr
+          %th Ethnicity
+          %th Chinese, Irish, French
+        %tr
+          %th Travel
+          %td Bus / Car / Walk
+          
+            
+    %section
+      
+      %h2 Description
+      %h2 History
+
+    #meta
+      .span12
+        .span5.left
+          %section#crime.widgit.yellow
+            %h1 Crime
+        .span2
+        .span5.right
+          %section#economy.widgit.green
+            %h1 Economy
+      
+
+      .span12
+        .span5.left
+          %section#population.widgit.green
+            %h1 Population
+        .span2
+        .span5.right
+          %section#economy.widgit.yellow
+            %h1 Industry   
