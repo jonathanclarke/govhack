@@ -340,6 +340,7 @@ DEPENDENCIES
   sass-rails (~> 4.0.0.rc1)
   sdoc
   simplecov
+  sqlite3
   test-unit (= 2.5.2)
   therubyracer
   tire
