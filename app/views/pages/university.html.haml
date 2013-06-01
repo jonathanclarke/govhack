@@ -1,0 +1,17 @@
+.container-fluid
+  .row-fluid
+    .span12
+      .span6
+        = image_tag(@university["logo"], :alt =>  @university["name"])
+      .span2
+      .span4
+        %section#address
+          = @university["address"]
+          
+        %section#phone
+          = @university["phone"]
+  .row-fluid
+    %h2 Suburbs
+    - @university["suburbs"].each do |suburb|
+      .span12
+        = link_to suburb["name"], "/suburb/name"

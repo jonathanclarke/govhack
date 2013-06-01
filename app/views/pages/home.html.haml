@@ -1,8 +1,9 @@
 .container-fluid
   .row-fluid
-    - @universities["universities"].each do |university|
-      %section.university.span6
-        = image_tag university["logo"], :alt => university["name"], :title => university["name"]
+    %section#universities.span12
+      - @universities["universities"].each do |university|
+        %div{ :class => "university span6" }
+          = link_to image_tag(university["logo"], :alt => university["name"], :title => university["name"]), university_path( :university_permalink => university["permalink"])
     
     
 -#   .row-fluid

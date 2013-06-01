@@ -1,0 +1,17 @@
+{
+    "name": "University of Sydney",
+    "permalink": "university-of-sydney",
+    "logo": "university-logos/usyd_logo.png",
+    "address": "City Rd  Darlington NSW 2008, Australia",
+    "phone": "+61 2 9351 2222",
+    "latitude": "-33.883871500000000000",
+    "longitude": "151.201865199999930000",
+    "suburbs":
+    [
+	{ "name": "Newtown", "permalink": "newtown", "longitude": "", "latitude":"" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" },
+	{ "name": "Glebe", "permalink": "glebe", "longitude": "", "latitude":"" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" }
+    ]
+    
+}

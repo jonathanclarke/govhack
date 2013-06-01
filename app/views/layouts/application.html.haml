@@ -15,12 +15,14 @@
     = javascript_include_tag "frontend.js"
     = yield :js_header
     = csrf_meta_tag
+    %link{ :href => 'http://fonts.googleapis.com/css?family=Lato:100', :rel=>'stylesheet', :type=>'text/css'}
+
   %body
-    = render :partial => "shared/header"      
     #content
+      = render :partial => "shared/header"      
       .container-fluid
         .breadcrumbs
           = yield :breadcrumbs
         = yield
-    = render :partial => "shared/footer"
+      = render :partial => "shared/footer"
     = yield :js_footer

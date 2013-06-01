@@ -4,33 +4,13 @@
             "id": "0001",
             "name": "University of Sydney",
             "permalink": "university-of-sydney",
-            "logo": "university-logos/usyd_logo.png",
-            "address": "City Rd  Darlington NSW 2008, Australia",
-            "phone": "+61 2 9351 2222",
-            "latitude": "-33.883871500000000000",
-            "longitude": "151.201865199999930000",
-            "suburbs":
-            [
-	        { "id": "001", "name": "Newtown", "permalink": "Newtown", "distance": "700 metres" },
-	        { "id": "002", "name": "Macdonaldown", "permalink": "macdonaldown", "distance": "1.2 kilometers" },
-	        { "id": "003", "name": "Redfern", "permalink": "redfern", "distance": "1.4 kilometers" }
-            ]
+            "logo": "university-logos/usyd_logo.png"
         },
         {
             "id": "0001",
             "name": "University of Technology, Sydney",
-            "permalink": "university-of-sydney",
-            "logo": "university-logos/uts_logo.png",
-            "address": "City Rd  Darlington NSW 2008, Australia",
-            "phone": "+61 2 9351 2222",
-            "latitude": "-33.883871500000000000",
-            "longitude": "151.201865199999930000",
-            "suburbs":
-            [
-	        { "id": "001", "name": "Newtown", "permalink": "Newtown", "distance": "700 metres" },
-	        { "id": "002", "name": "Macdonaldown", "permalink": "macdonaldown", "distance": "1.2 kilometers" },
-	        { "id": "003", "name": "Redfern", "permalink": "redfern", "distance": "1.4 kilometers" }
-            ]
+            "permalink": "university-of-technology-sydney",
+            "logo": "university-logos/uts_logo.png"
         }
     ]
 }

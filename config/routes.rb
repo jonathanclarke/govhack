@@ -23,6 +23,8 @@ Govhack::Application.routes.draw do
     # get "page/index"
     get 'about' => 'pages#about', as: :about
     get 'contact' => 'pages#contact', as: :contact
+    get 'university/:university_permalink' => 'pages#university', as: :university
+    get 'university/:university_permalink/suburb/:suburb_permalink' => 'pages#suburb', as: :suburb
   end
 
   # Example resource route (maps HTTP verbs to controller actions automatically):

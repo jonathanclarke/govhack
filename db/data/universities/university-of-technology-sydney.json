@@ -1,0 +1,17 @@
+{
+    "name": "University of Technology, Sydney",
+    "permalink": "university-of-technology-sydney",
+    "logo": "university-logos/uts_logo.png",
+    "address": "15 Broadway  Ultimo NSW 2007, Australia",
+    "phone": "+61 2 9514 2000",
+    "latitude": "-33.883871500000000000",
+    "longitude": "151.201865199999930000",
+    "suburbs":
+    [
+	{ "name": "Newtown", "permalink": "newtown", "longitude": "", "latitude":"" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" },
+	{ "name": "Glebe", "permalink": "glebe", "longitude": "", "latitude":"" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" }
+    ]
+    
+}
