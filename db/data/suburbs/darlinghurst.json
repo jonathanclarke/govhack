@@ -1,0 +1,24 @@
+{
+    "id": "0001",
+    "name": "Darlinghurst"
+    "permalink", "darlinghurst",
+    "address": "Darlinghurst, 2008, Australia",
+    "postcode": "",
+    "state": "",
+    "city": "",
+    "phone": "",
+    "latitude": "",
+    "longitude": "",
+    "history": "",
+    "photos":
+    [
+	{ "id": "001", "url": "http://", "caption": "" },
+    ]
+    "businesses_total": "",
+    "local_businesses":
+    [
+	{ "id": "001", "name": "", "permalink": "", "longitude": "", "latitude": ""},    
+	{ "id": "001", "name": "", "permalink": "", "longitude": "", "latitude": ""}
+    ],
+    "average_monthly_renatal": ""
+}

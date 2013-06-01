@@ -1,1 +1,14 @@
 %footer
+  %section#locales
+    %ul
+      - unless I18n.locale == :en
+        %li
+          = link_to image_tag("flags/en.png", :alt => t(:switch_english_language), :title => t(:switch_english_language)), locale: :en
+      - unless I18n.locale == :zh
+        %li
+          = link_to image_tag("flags/zh.png", :alt => t(:switch_mandarin_language), :title => t(:switch_mandarin_language)), locale: :zh
+      - unless I18n.locale == :hi
+        %li
+          = link_to image_tag("flags/hi.png", :alt => t(:switch_hindi_language), :title => t(:switch_hindi_language)), locale: :hi
+  
+  

@@ -1,6 +1,6 @@
 Govhack::Application.routes.draw do
 
-  root :to => 'pages#home'
+  # root :to => 'pages#home'
 
   
 
@@ -15,9 +15,15 @@ Govhack::Application.routes.draw do
   #   get 'products/:id' => 'catalog#view'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
-  get 'about' => 'pages#about', as: :about
-  get 'contact' => 'pages#contact', as: :contact
 
+
+
+  scope "(:locale)", :locale => /en|zh|hi/ do
+    root :to => 'pages#home'
+    # get "page/index"
+    get 'about' => 'pages#about', as: :about
+    get 'contact' => 'pages#contact', as: :contact
+  end
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products

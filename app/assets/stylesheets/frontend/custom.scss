@@ -14,3 +14,21 @@ body {
       padding-right: 5px;
    }
 }
+footer{
+   margin: 20px 0 0 0;
+   section#locales{
+      ul{
+         margin: 0;
+         padding: 0;
+         li{
+            list-style:none;
+            display:inline;
+            margin: 0 40px 0 0;
+         }
+      }
+   }
+}
+
+.university{
+   margin: 20px 0 0 0;
+}

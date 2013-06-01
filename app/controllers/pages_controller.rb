@@ -1,3 +1,5 @@
+require 'json'
+
 class PagesController < ApplicationController
 
   def about
@@ -7,6 +9,8 @@ class PagesController < ApplicationController
   end
 
   def home
+    json_data = File.read("#{ Rails.root }/db/data/universities.json")
+    @universities = JSON.parse(json_data)
   end
 
 end
