@@ -14,4 +14,4 @@
     %h2 Suburbs
     - @university["suburbs"].each do |suburb|
       .span12
-        = link_to suburb["name"], "/suburb/name"
+        = link_to suburb["name"], suburb_path(:university_permalink => @university["permalink"], :suburb_permalink => suburb["permalink"])
