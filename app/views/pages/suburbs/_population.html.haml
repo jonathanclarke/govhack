@@ -1,9 +1,12 @@
 %section#population.widgit.white
   %h2= t(:population)
-  
   %p
     - (0...@suburb["summary"]["female"].to_i).each do |i|
       = image_tag "female.png", :size => "20x20"
   %p      
     - (0...@suburb["summary"]["male"].to_i).each do |i|
       = image_tag "male.png", :size => "20x20"
+  %p
+    %span
+      Ethnicity:
+    = @suburb["summary"]["ethnicity"]

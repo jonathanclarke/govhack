@@ -1,0 +1,9 @@
+%section#work.widgit.white
+  %h2= t(:work)
+  %p
+    %span Part time work (full-time student) 
+    = "#{ @suburb["economy"]["youthWorkPartStudyFull"] }%"
+  %p
+    %span
+      = "#{ t(:unemployment_rate) }: "
+    = "#{ @suburb["economy"]["unemplymentRate"] }%"

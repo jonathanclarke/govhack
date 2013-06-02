@@ -2,12 +2,12 @@ set :application, "uniburb"
 set :repository,  "git@github.com:beilabs/govhack.git"
 set :branch,          "master"
 set :scm, :git
-set :user, "blarg"
-set :group, "blarg"
+set :user, "ubuntu"
+set :group, "ubuntu"
 set :rails_env,       "production"
 set :ssh_options,     { :forward_agent => true }
 set :keep_releases, 5
-
+ssh_options[:keys] = [File.join(ENV["HOME"], "Dropbox", "workspace", "GovHack", "govhack.pem")] 
 role :web, "uniburb.uni.me"
 role :app, "uniburb.uni.me"
 role :db,  "uniburb.uni.me"
@@ -29,13 +29,15 @@ default_run_options[:pty] = true
 # default_run_options[:shell] = '/bin/bash'
 # set :shell, '/bin/bash'
 
+
 namespace :deploy do
+
   # task :setup do
   #   run <<-CMD
   #     ln -sf #{shared_path}/config/database.yml #{latest_release}/config/database.yml
   #   CMD
   # end
-  task :start do ; end
+  task :start do ;  end
   task :stop do ; end
   task :restart, :roles => :app, :except => { :no_release => true } do
     run "#{try_sudo} touch #{File.join(current_path,'tmp','restart.txt')}"

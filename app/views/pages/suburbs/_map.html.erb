@@ -1,0 +1,42 @@
+<%= content_for(:js_header) do %>
+<script charset="UTF-8" type="text/javascript" src="https://ecn.dev.virtualearth.net/mapcontrol/mapcontrol.ashx?v=7.0&s=1">
+</script>
+<script type="text/javascript">
+
+function DoTrends(lat, longi, name) {
+	// dataObj is the trends data loaded as JSON object.
+	var map = GetMap();
+	pageVarMap = map; // Saved for later, when adding infoboxes.
+
+	var loc = new Microsoft.Maps.Location(lat, longi);
+
+	// Create pushpin and add to map.
+	var infoboxOptions = {
+		title: name,
+		height: 45
+	};
+	var infobox = new Microsoft.Maps.Infobox(loc, infoboxOptions);
+	map.entities.push(infobox);
+
+	// Adjust map centre.
+	map.setView({center: loc, zoom: 15});
+}
+
+function GetMap() {
+	var map = new Microsoft.Maps.Map(document.getElementById("mapDiv"), {credentials:"AqcVomk22ni48gUWhOLwbPRBv9_dIRLJ1RxciambLPCGToDAsmiqB_DGhyzBeDYE"});
+	map.entities.clear();
+	return map;
+}
+
+//////////// READY ///////////
+jQuery(document).ready(function() {
+	// CHANGE HERE, lat, long, suburb.
+	DoTrends(<%= @suburb["latitude"] %>, <%= @suburb["longitude"] %>, <%= @suburb["name"] %>);
+});
+
+</script>
+
+
+<% end %>
+
+<div id='mapDiv' style="position:relative; width:850px; height:200px; width:100%;"></div>

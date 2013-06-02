@@ -45,22 +45,24 @@
         = @suburb["name"]
       
       .span12
-        .span5.left
-          = render :partial => "pages/suburbs/description"
-
-        .span5.right
-          = render :partial => "pages/suburbs/modes_of_travel"
-
+        = render :partial => "pages/suburbs/description"
 
       .row-fluid
-        .span5.left
-          = render :partial => "pages/suburbs/ethnicity"
-        .span5.right
-          = render :partial => "pages/suburbs/economy"
-      .row-fluid
-        .span5.left
+        .span3
           = render :partial => "pages/suburbs/population"
+        .span3
+          = render :partial => "pages/suburbs/accomodation"
+
+        .span3
+          = render :partial => "pages/suburbs/work"
+        .span3
+          = render :partial => "pages/suburbs/modes_of_travel"
+        .span3
+          -# = render :partial => "pages/suburbs/crime"
+                    
       .row-fluid
         .span12
           = render :partial => "pages/suburbs/photos_of_the_area"          
-        
+      .row-fluid
+        .span12
+          = render :partial => "pages/suburbs/map"                  

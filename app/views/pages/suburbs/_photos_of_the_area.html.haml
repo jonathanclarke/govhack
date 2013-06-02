@@ -2,5 +2,6 @@
   %h2= t(:photos_of_the_area)
   - @suburb["photos"].each do |photo|
     %a{ :href => photo["url"], :rel=>"lightbox[suburb]", :alt => photo["title_en"], :title => photo["title_en"] }
-      = image_tag photo["thumbUrl"], :size => "200x200", :alt => photo["title_en"], :title => photo["title_en"]
+      = image_tag photo["thumbUrl"], :size => "64x64", :alt => photo["title_en"], :title => photo["title_en"]
+      
 
