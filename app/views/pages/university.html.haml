@@ -16,13 +16,15 @@
             %i{ :class=>"icon-envelope" }
             
   .row-fluid
-    %section{ :id => "surrounding_suburbs", :class => "span12" }
-      %h2= t(:suburbs).capitalize
-      %ul
-        - @university["suburbs"].each do |suburb|
-          %li
-            %a{ :href => suburb_path(:university_permalink => @university["permalink"], :suburb_permalink => suburb["permalink"]), :class => "suburb span12 #{ cycle("even", "odd") }" }
-              = suburb["name"]
-          
-    %section{ :id => "campus_pictures" }
-      %h2= t(:campus_pictures).capitalize
+    .span12
+      %section{ :id => "surrounding_suburbs" }
+        %h2= t(:suburbs).capitalize
+        %ul
+          - @university["suburbs"].each do |suburb|
+            %li
+              %a{ :href => suburb_path(:university_permalink => @university["permalink"], :suburb_permalink => suburb["permalink"]), :class => "suburb span12 #{ cycle("even", "odd") }" }
+                = suburb["name"]
+
+    .span12
+      %section{ :id => "campus_pictures" }
+        %h2= t(:campus_pictures).capitalize

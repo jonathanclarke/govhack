@@ -7,10 +7,19 @@
 
       = "$#{ @suburb["economy"]["averageMortage"] }"
       = t(:per_month)
-      
+      - if @suburb["economy"]["averageMortage"] > 2185
+        = image_tag "red_up.png"
+      - else
+        = image_tag "green_down.png"
+        
     %br
     %span
       = "#{ t(:average_rental) }: "
       = "$#{ @suburb["economy"]["averageRental"] }"
       = t(:per_month)
-    
+      - if @suburb["economy"]["averageRental"] > 1442
+        = image_tag "red_up.png"
+      - else
+        = image_tag "green_down.png"
+
+      
