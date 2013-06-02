@@ -1,0 +1,19 @@
+%section#travel.widgit.white
+  %h2= t(:economy)
+  
+  %p
+    %span
+      = "#{ t(:average_mortage) }: "
+
+      = @suburb["economy"]["averageMortage"]
+      = t(:per_month)
+      
+    %br
+    %span
+      = "#{ t(:average_rental) }: "
+      = "$#{ @suburb["economy"]["averageRental"] }"
+      = t(:per_month)
+    %br      
+    %span
+      = "#{ t(:unemployment_rate) }: "
+    = "#{ @suburb["economy"]["unemplymentRate"] }%"

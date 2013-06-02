@@ -95,6 +95,11 @@ header{
       h2{
          font-size: 24px;
       }
+      p{
+         span{ 
+            min-width: 100px;
+         }
+      }
       
    }
    .suburb.span12{
@@ -161,3 +166,9 @@ section#travel{
 }
 /* Internation education and research industry action plan NSW GOV */
 
+#travel{
+   ul{
+      
+      li{display:block;}
+   }
+}
