@@ -18,7 +18,7 @@ Govhack::Application.routes.draw do
 
 
 
-  scope "(:locale)", :locale => /en|zh|hi|fr/ do
+  scope "(:locale)", :locale => /en|zh|hi/ do
     root :to => 'pages#home'
     # get "page/index"
     get 'about' => 'pages#about', as: :about
