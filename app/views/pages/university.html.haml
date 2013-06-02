@@ -27,10 +27,3 @@
             %li
               %a{ :href => suburb_path(:university_permalink => @university["permalink"], :suburb_permalink => suburb["permalink"]), :class => "suburb span12 #{ cycle("even", "odd") }" }
                 = suburb["name"]
-                -# Distance:
-                -# = distance_between(@university["latitude"], @university["longitude"], suburb["longitude"], suburb["latitude"])
-
-
-    -# .span12
-    -#   %section{ :id => "campus_pictures" }
-    -#     %h2= t(:campus_pictures).capitalize
