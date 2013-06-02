@@ -8,10 +8,15 @@
     "longitude": "151.201865199999930000",
     "suburbs":
     [
-	{ "name": "Newtown", "permalink": "newtown", "longitude": "", "latitude":"" },
-	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" },
-	{ "name": "Glebe", "permalink": "glebe", "longitude": "", "latitude":"" },
-	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" }
+	{ "name": "Glebe", "permalink": "glebe", "longitude": "151.1883183", "latitude":"-33.8811282" },
+	{ "name": "Newtown", "permalink": "newtown", "longitude": "151.179963199999970000", "latitude":"-33.896549300000000000" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "151.20171779999998", "latitude":"-33.892507" },
+	{ "name": "Darlinghurst", "permalink": "darlinghurst", "longitude": "151.201717799999980000", "latitude":"-33.892507000000000000" },
+	{ "name": "Erstineville", "permalink": "erstineville", "longitude": "151.184522900000050000", "latitude":"-33.899808400000000000" },
+	{ "name": "Pyrmont", "permalink": "pyrmont", "longitude": "151.194540400000050000", "latitude":"-33.869545600000000000" },
+	{ "name": "Surry Hills", "permalink": "surry_hills", "longitude": "151.212925400000020000", "latitude":"-33.890646600000000000" },
+	{ "name": "Sydney", "permalink": "sydney", "longitude": "151.206889600000070000", "latitude":"-33.873651000000000000" },
+	{ "name": "Waterloo", "permalink": "waterloo", "longitude": "151.199995200000000000", "latitude":"-33.896046100000000000" }
     ]
     
 }
