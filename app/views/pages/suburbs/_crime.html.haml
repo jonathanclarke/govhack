@@ -1,3 +1,20 @@
 %section#photos.widgit.white
-  %h2= t(:crime)
-  
+  %h2
+    = t(:crime)
+    (2008) - Sydney Council
+  %p
+    = "#{ t(:motor_vehicle_theft) } :"
+    = @crime["steal_from_motor_vehicle"]
+    = image_tag "green_down.png", :size => "25x25"
+  %p
+    = "#{ t(:mugging) }:"
+    = @crime["steal_from_person"]
+    = image_tag "green_down.png", :size => "25x25"
+  %p
+    = "#{ t(:fraud) }:"
+    = @crime["fraud"]
+    = image_tag "red_up.png", :size => "25x25"
+  %p
+    = "#{ t(:damage_to_property) }:"
+    = @crime["malicious_damage_to_property"]
+    = image_tag "green_down.png", :size => "25x25"

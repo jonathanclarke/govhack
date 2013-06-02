@@ -31,7 +31,7 @@ function GetMap() {
 //////////// READY ///////////
 jQuery(document).ready(function() {
 	// CHANGE HERE, lat, long, suburb.
-	DoTrends(<%= @suburb["latitude"] %>, <%= @suburb["longitude"] %>, <%= @suburb["name"] %>);
+	DoTrends(<%= @suburb["latitude"] %>, <%= @suburb["longitude"] %>, "<%= @suburb["name"] %>");
 });
 
 </script>

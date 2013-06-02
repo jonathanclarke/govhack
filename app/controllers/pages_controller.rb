@@ -26,5 +26,8 @@ class PagesController < ApplicationController
     suburb_data = File.read("#{ Rails.root }/db/data/suburbs/#{ params[:suburb_permalink] }.json")
 
     @suburb = JSON.parse(suburb_data)
+
+    crime_data = File.read("#{ Rails.root }/db/data/crime/sydney.json")
+    @crime = JSON.parse(crime_data)
   end
 end

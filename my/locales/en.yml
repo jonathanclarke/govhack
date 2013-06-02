@@ -16,3 +16,8 @@
   unemployment_rate: Unemployment rate
   population: Population
   accomodation: Accommodation
+  crime: Crime
+  motor_vehicle_theft: Motor vehicle theft
+  mugging: Mugging
+  fraud: Fraud
+  damage_to_property: Property damage
