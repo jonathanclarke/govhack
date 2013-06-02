@@ -1,5 +1,18 @@
-hi:
+﻿hi:
   hello: हाय
   switch_english_language: English
   switch_mandarin_language:  中文
   switch_hindi_language: हिंदी
+  switch_french_language: Français
+  suburbs: आसपास के उपनगरों
+  campus_pictures: कैम्पस तस्वीरें
+  modes_of_transport: परिवहन की विधियां
+  description: विवरण
+  photos_of_the_area: क्षेत्र की तस्वीरें
+  ethnic_background: जातीय पृष्ठभूमि
+  per_month: प्रति महीने
+  average_mortage: औसत बंधक
+  average_rental: औसत किराया
+  unemployment_rate: बेरोजगारी दर
+  population: जनसंख्या
+  accomodation: रहने की जगह

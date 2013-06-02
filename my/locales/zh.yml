@@ -1,6 +1,18 @@
-zh:
-  hello: Ni Hao
-  switch_english_language: English
-  switch_mandarin_language:  中文
+﻿zh:
+  hello: 您好
+  switch_english_language: English  
+  switch_mandarin_language: 中文
   switch_hindi_language: हिंदी
-  ethnic_background: 
+  switch_french_language: Français
+  suburbs: 周边郊区
+  campus_pictures: 校园图片
+  modes_of_transport: 运输方式
+  description: 描述
+  photos_of_the_area: 的区域的照片
+  ethnic_background: 民族背景
+  per_month: 每月
+  average_mortage: 一般按揭还款
+  average_rental: 平均租金
+  unemployment_rate: 失业率
+  population: 人口
+  accomodation: 住宿
