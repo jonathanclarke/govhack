@@ -1,0 +1,20 @@
+%section#travel.widgit.white
+  %h2= t(:modes_of_transport)
+  %ul
+    - (0..@suburb["summary"]["travel_car"].to_i ).each do |i|
+      %li= image_tag "travel/car.png", :size => "20x20"
+  %ul
+    - (0..@suburb["summary"]["travel_bus"].to_i ).each do |i|
+      %li= image_tag "travel/bus.png", :size => "20x20"
+  %ul
+    - (0..@suburb["summary"]["travel_moto"].to_i ).each do |i|
+      %li= image_tag "travel/motorcycle.png", :size => "20x20"
+  %ul
+    - (0..@suburb["summary"]["travel_tram"].to_i ).each do |i|
+      %li= image_tag "travel/tram.png", :size => "20x20"
+  %ul
+    - (0..@suburb["summary"]["travel_walk"].to_i ).each do |i|
+      %li= image_tag "travel/walk.png", :size => "20x20"
+  %ul
+    - (0..@suburb["summary"]["travel_bicycle"].to_i ).each do |i|
+      %li= image_tag "travel/bicycle.png", :size => "20x20"

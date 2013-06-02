@@ -46,39 +46,23 @@
       
       .span12
         .span5.left
-          %section#economy.widgit.white
-            %p= @suburb["description_#{ I18n.locale }"]
-            %p= @suburb["history_#{ I18n.locale }"]
-            
-        .span2
-          
+          = render :partial => "pages/suburbs/description"
+
         .span5.right
-          %section#travel.widgit.white
-            %h2= t(:modes_of_transport)
-            %ul
-              - (0..@suburb["summary"]["travel_car"].to_i ).each do |i|
-                %li= image_tag "travel/car.png", :size => "20x20"
-            %ul
-              - (0..@suburb["summary"]["travel_bus"].to_i ).each do |i|
-                %li= image_tag "travel/bus.png", :size => "20x20"
-            %ul
-              - (0..@suburb["summary"]["travel_moto"].to_i ).each do |i|
-                %li= image_tag "travel/motorcycle.png", :size => "20x20"
-            %ul
-              - (0..@suburb["summary"]["travel_tram"].to_i ).each do |i|
-                %li= image_tag "travel/tram.png", :size => "20x20"
-            %ul
-              - (0..@suburb["summary"]["travel_walk"].to_i ).each do |i|
-                %li= image_tag "travel/walk.png", :size => "20x20"
-            %ul
-              - (0..@suburb["summary"]["travel_bicycle"].to_i ).each do |i|
-                %li= image_tag "travel/bicycle.png", :size => "20x20"
+          = render :partial => "pages/suburbs/modes_of_travel"
+
       .row-fluid
         .span12
-          %section#photos.widgit.white
-            %h2= t(:photos_of_the_area)
-            - @suburb["photos"].each do |photo|
-              = image_tag photo["thumbUrl"], :size => "200x200", :alt => photo["title_en"], :title => photo["title_en"]
-            
+          = render :partial => "pages/suburbs/photos_of_the_area"
+      .row-fluid
+        .span5.left
+          = render :partial => "pages/suburbs/modes_of_travel"
+      .row-fluid
+        .span5.left
+          %h2= t(:ethnic_background)
+          %ul
+            %li
+              = @suburb["summary"]["ethnicity"]
+          = render :partial => "pages/suburbs/ethnicity"
 
         
