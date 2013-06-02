@@ -9,6 +9,8 @@
     "history_hi": "आर्य लोग और निम्न वर्ग दोनों को घर दिया गया है जो भीतरी शहर के उपनगर.",
     "history_fr": "Banlieue du centre-ville qui a été à la maison à la fois noblesse et défavorisée.",
     "history_zh": "一直在家士绅和下层阶级的内城郊区。",
+	"latitude": "-33.8776739649",
+	"longitude": "151.218739773",
     "policeStations": "http://maps.google.com.au/maps?q=police+station+near+Darlinghurst,+New+South+Wales,+Australia&hl=en&ll=-33.879394,151.213524&spn=0.008711,0.021136&sll=-33.811102,151.4328&sspn=1.188963,2.705383&hq=police+station&hnear=Darlinghurst+New+South+Wales&t=m&z=16",
     "photos" : [
 	{
