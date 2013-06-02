@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  database: govhack_development
+  username: devuser
+  password: devuser
+  encoding: unicode
+
+
+test:
+  adapter: postgresql
+  database: govhack_test
+  username: devuser
+  password: devuser
+  encoding: unicode
+
+cucumber:
+  adapter: postgresql
+  database: govhack_cucumber
+  username: devuser
+  password: devuser
+  encoding: unicode
+
+production:
+  adapter: postgresql
+  database: govhack_development
+  username: devuser
+  password: devuser
+  encoding: unicode
+  host: localhost
