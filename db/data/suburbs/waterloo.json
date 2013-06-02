@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "waterloo",
     "history_en": "Inner-city suburb characterised by industry in the nineteenth century and public housing in the twentieth, now undergoing gentrification.",
     "name": "Waterloo",
@@ -68,7 +68,9 @@
         "travel_walk": 0
     },
     "history_fr": "",
-    "description_fr": "",
+	"longitude": "151.199995200000000000", 
+	"latitude":"-33.896046100000000000" ,
+   "description_fr": "",
     "population": {
         "poputationDensity": 6342.1,
         "female1519": 488.0,

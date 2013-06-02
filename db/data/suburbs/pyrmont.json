@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "pyrmont",
     "history_en": "Peninsular suburb south-west of central Sydney which was quarried for its sandstone and later became a working-class enclave, now gentrified.",
     "name": "Pyrmont",
@@ -68,6 +68,8 @@
         "travel_walk": 0
     },
     "history_fr": "Peninsular banlieue sud-ouest du centre de Sydney qui a été exploitée pour son grès et devint plus tard une enclave de la classe ouvrière, aujourd'hui embourgeoisé.",
+	"longitude": "151.194540400000050000", 
+	"latitude":"-33.869545600000000000" ,
     "description_fr": "Pyrmont est une banlieue du centre-ville de Sydney, dans l'État de Nouvelle-Galles du Sud, Australie 2 kilomètres au sud-ouest du quartier d'affaires central de Sydney dans la zone de gouvernement local de la ville de Sydney. Il fait également partie de la région de Darling Harbour.",
     "population": {
         "poputationDensity": 13499.6,

@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "haymarket",
     "history_en": "Named for the markets of the nineteenth century, Haymarket is still home to Paddy's Market as well as Sydney's bustling Chinatown.",
     "name": "Haymarket",
@@ -68,6 +68,8 @@
         "travel_walk": 0
     },
     "history_fr": "",
+	"longitude": "151.206889600000070000", 
+	"latitude":"-33.873651000000000000" ,
     "description_fr": "",
     "population": {
         "poputationDensity": 5837.7,
