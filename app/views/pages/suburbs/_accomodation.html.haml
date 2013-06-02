@@ -3,25 +3,25 @@
   
   %p
     %span
-      = "#{ t(:average_mortage) }: "
+      %strong= "#{ t(:average_mortage) }: "
       %br
       = "$#{ @suburb["economy"]["averageMortage"] }"
       = t(:per_month)
 
       - if @suburb["economy"]["averageMortage"] > 2185
-        = image_tag "red_up.png", :size => "25x25"
+        = image_tag "red_up.png", :size => "25x25", :alt => "NSW mortage average: $1442", :title => "NSW mortage average: $1442"
       - else
-        = image_tag "green_down.png", :size => "25x25"
+        = image_tag "green_down.png", :size => "25x25", :alt => "NSW mortage average: $1442", :title => "NSW mortage average: $1442"
         
     %br
     %span
-      = "#{ t(:average_rental) }: "
+      %strong= "#{ t(:average_rental) }: "
       %br
       = "$#{ @suburb["economy"]["averageRental"] }"
       = t(:per_month)
       - if @suburb["economy"]["averageRental"] > 1442
-        = image_tag "red_up.png", :size => "25x25"
+        = image_tag "red_up.png", :size => "25x25", :alt => "NSW rental average: $1442",  :title => "NSW rental average: $1442"
       - else
-        = image_tag "green_down.png", :size => "25x25"
+        = image_tag "green_down.png", :size => "25x25", :alt => "NSW rental average: $1442", :title => "NSW rental average: $1442"
 
       
