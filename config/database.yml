@@ -21,9 +21,6 @@ cucumber:
   encoding: unicode
 
 production:
-  adapter: postgresql
+  adapter: sqlite3
   database: govhack_development
-  username: devuser
-  password: devuser
   encoding: unicode
-  host: localhost
