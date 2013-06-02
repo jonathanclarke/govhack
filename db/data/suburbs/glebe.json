@@ -18,7 +18,13 @@
         }
     ],
     "summary": {
-
+        "ethnicity": "Chinese, Irish, French",
+        "travel_bus": "4",
+        "travel_car": "1",
+        "travel_moto": "1",
+        "travel_tram": "1",
+        "travel_bicycle": "3",
+        "travel_walk": "3"
     },
     "economy": {
         "averageMortage": 3018.0,
