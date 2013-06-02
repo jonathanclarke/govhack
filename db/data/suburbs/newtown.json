@@ -1,102 +1,147 @@
 {
-    "name": "Newtown",
     "permalink": "newtown",
-    "description_en": "Newtown, a suburb of Sydney's inner west is located approximately four kilometres south-west of the Sydney central business district, straddling the local government areas of the City of Sydney and Marrickville Council in the state of New South Wales, Australia.",
-    "description_zh": "现代城位于悉尼内西区，郊区西南约四公里的悉尼中央商务区，横跨当地政府区域市，澳大利亚新南威尔士州悉尼和Marrickville的理事会。",
-    "description_fr": "Newtown, un quartier de l'ouest intérieur de Sydney est situé à environ quatre kilomètres au sud-ouest du quartier central des affaires de Sydney, à cheval sur les zones de gouvernement local de la ville de Sydney et du Conseil Marrickville dans l'état de New South Wales, en Australie.",
-    "description_hi": "न्यूटाउन, सिडनी के भीतर पश्चिम के एक उपनगर ऑस्ट्रेलिया के न्यू साउथ वेल्स राज्य में सिडनी और Marrickville परिषद की शहर की स्थानीय सरकार क्षेत्रों straddling सिडनी केन्द्रीय व्यापार जिले के लगभग चार किलोमीटर दक्षिण पश्चिम में स्थित है.",
     "history_en": "Inner-west suburb which developed along the main road south from Sydney and became a prosperous shopping district in the late 19th century, and later a working-class and migrant suburb, now gentrified.",
-    "history_hi": "सिडनी से मुख्य सड़क के दक्षिण किनारे विकसित की है और अब gentrified 19 वीं सदी में एक समृद्ध खरीदारी जिला, और बाद में एक काम वर्ग और प्रवासी उपनगर बन गया है, जो इनर पश्चिम उपनगर.",
-    "history_fr": "Banlieue du centre-ouest qui s'est développée le long de la route principale au sud de Sydney et est devenu un quartier prospère commerçant de la fin du 19e siècle, et plus tard, une banlieue ouvrière et les travailleurs migrants, aujourd'hui embourgeoisé.",
-    "history_zh": "Newtown区，从悉尼沿主路南发展，并成为一个繁荣的商圈在19世纪后期，后工薪阶层和农民的郊区，现在绅士化。",
+    "name": "Newtown",
     "policeStations": "http://maps.google.com.au/maps?q=police+station+near+Newtown,+New+South+Wales,+Australia&hl=en&sll=-33.880213,151.18841&sspn=0.008711,0.021136&hq=police+station&hnear=Newtown+New+South+Wales&t=m&z=16",
+    "description_zh": "现代城位于悉尼内西区，郊区西南约四公里的悉尼中央商务区，横跨当地政府区域市，澳大利亚新南威尔士州悉尼和Marrickville的理事会。",
     "photos": [
         {
-            "title_en": "Intersection of King Street & Enmore Road, Newtown",
+            "url": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Street_Newtown.jpg/800px-King_Street_Newtown.jpg",
             "thumbUrl": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Street_Newtown.jpg/270px-King_Street_Newtown.jpg",
-            "url": "http://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/King_Street_Newtown.jpg/800px-King_Street_Newtown.jpg"
+            "title_en": "Intersection of King Street & Enmore Road, Newtown"
         }
     ],
+    "description_hi": "न्यूटाउन, सिडनी के भीतर पश्चिम के एक उपनगर ऑस्ट्रेलिया के न्यू साउथ वेल्स राज्य में सिडनी और Marrickville परिषद की शहर की स्थानीय सरकार क्षेत्रों straddling सिडनी केन्द्रीय व्यापार जिले के लगभग चार किलोमीटर दक्षिण पश्चिम में स्थित है.",
+    "description_en": "Newtown, a suburb of Sydney's inner west is located approximately four kilometres south-west of the Sydney central business district, straddling the local government areas of the City of Sydney and Marrickville Council in the state of New South Wales, Australia.",
     "summary": {
-        "ethnicity": "Chinese, Irish, French",
-        "travel_bus": "4",
-        "travel_car": "1",
-        "travel_moto": "1",
-        "travel_tram": "1",
         "travel_bicycle": "3",
-        "travel_walk": "3"
+        "travel_moto": 0,
+        "travel_bicyle": 0,
+        "travel_car": 3,
+        "travel_taxi": 1,
+        "female": 5.0,
+        "travel_tram": 2,
+        "male": 5.0,
+        "travel_bus": 1,
+        "ethnicity": [
+            {
+                "value": 60.7,
+                "key": "Australia"
+            },
+            {
+                "value": 9.3,
+                "key": "North-West Europe"
+            },
+            {
+                "value": 4.5,
+                "key": "South-East Asia"
+            },
+            {
+                "value": 3.6,
+                "key": "Oceania"
+            },
+            {
+                "value": 3.6,
+                "key": "North-East Asia"
+            },
+            {
+                "value": 3.1,
+                "key": "South-East Europe"
+            },
+            {
+                "value": 3.0,
+                "key": "Americas"
+            },
+            {
+                "value": 1.2,
+                "key": "Southern and Central Asia"
+            },
+            {
+                "value": 0.9,
+                "key": "North Africa"
+            },
+            {
+                "value": 0.9,
+                "key": "Sub-Saharan Africa"
+            }
+        ],
+        "travel_walk": 0
     },
-    "economy": {
-        "averageMortage": 2774.0,
-        "youthWorkPartStudyPart": 0.9,
-        "unemplymentRate": 5.3,
-        "newBizTotal": 386.0,
-        "youthWorkFullStudyFull": 0.3,
-        "participationRate": 71.9,
-        "youthWorkFullStudyPart": 1.1,
-        "averageRental": 1995.0,
-        "youthWorkPartStudyFull": 25.4,
-        "exitBizTotal": 328.0,
-        "bizTotal": 2279.0
-    },
-    "industry": {
-        "employerRental": 1.2,
-        "employerManufacturing": 3.5,
-        "employerInformation": 7.7,
-        "employerWholeSaleTrade": 3.3,
-        "employerOther": 3.4,
-        "employerAdmin": 3.8,
-        "employerAgriculture": 0.1,
-        "employerAccommodation": 7.6,
-        "employerHealth": 10.1,
-        "employerFinancialInsurance": 6.5,
-        "employerEducation": 12.6,
-        "employerConstruction": 3.2,
-        "employerArts": 3.5,
-        "employerTransport": 2.6,
-        "employerElectricity": 0.7,
-        "totalEmployed": 13323.0,
-        "employerPublicAdmin": 6.1,
-        "employerMining": 0.2,
-        "employerRetailtrade": 7.1,
-        "employerScientific": 15.1
-    },
+    "history_fr": "Banlieue du centre-ouest qui s'est développée le long de la route principale au sud de Sydney et est devenu un quartier prospère commerçant de la fin du 19e siècle, et plus tard, une banlieue ouvrière et les travailleurs migrants, aujourd'hui embourgeoisé.",
+    "description_fr": "Newtown, un quartier de l'ouest intérieur de Sydney est situé à environ quatre kilomètres au sud-ouest du quartier central des affaires de Sydney, à cheval sur les zones de gouvernement local de la ville de Sydney et du Conseil Marrickville dans l'état de New South Wales, en Australie.",
     "population": {
-        "travelUseOneMethod": 10634.0,
-        "abAndTorresPercentage": 1.2,
-        "overseasNWEuropePerc": 9.3,
-        "male1519": 543.0,
-        "livedAtDiffAddress1YAgo": 21.6,
+        "poputationDensity": 7060.2,
         "female1519": 653.0,
-        "internetAccessDialUpPerc": 1.9,
-        "travelOther": 1836.0,
-        "overseasOceaniaPerc": 3.6,
-        "travelBus": 1675.0,
+        "male3034": 1537.0,
+        "female2024": 2028.0,
+        "travelTram": 2709.0,
+        "internetAccessOtherPerc": 6.0,
         "overseasNAfricaPerc": 0.9,
+        "overseasSEEuropePerc": 3.1,
+        "travelOther": 1836.0,
+        "livedAtDiffAddress1YAgo": 21.6,
+        "travelMoto": 175.0,
+        "travelUseManyMethods": 696.0,
+        "male2529": 1823.0,
+        "overseasOceaniaPerc": 3.6,
+        "travelCar": 3416.0,
+        "female2529": 1869.0,
+        "averageFamilySize": 2.5,
+        "travelUseOneMethod": 10634.0,
         "overseasSEAsiaPerc": 4.5,
         "overseasSubAfricaPerc": 0.9,
-        "female3034": 1461.0,
-        "travelMoto": 175.0,
-        "overseasSEEuropePerc": 3.1,
-        "speaksOtherThanEnglishPerc": 17.2,
         "travelWalk": 182.0,
-        "male3034": 1537.0,
         "livedAtDiffAddress5YAgo": 43.3,
-        "travelTram": 2709.0,
-        "overseasNEAsiaPerc": 3.6,
-        "overseasTotalPerc": 39.3,
-        "travelUseManyMethods": 696.0,
-        "poputationDensity": 7060.2,
+        "travelBus": 1675.0,
+        "overseasSCAsiaPerc": 1.2,
         "internetAccessBroadbandPerc": 72.6,
-        "averageFamilySize": 2.5,
-        "internetAccessOtherPerc": 6.0,
-        "overseasAmericaPerc": 3.0,
-        "female2529": 1869.0,
-        "female2024": 2028.0,
-        "travelCar": 3416.0,
-        "male2529": 1823.0,
+        "internetAccessDialUpPerc": 1.9,
+        "speaksOtherThanEnglishPerc": 17.2,
+        "overseasNWEuropePerc": 9.3,
+        "overseasNEAsiaPerc": 3.6,
+        "abAndTorresPercentage": 1.2,
         "male2024": 1616.0,
+        "overseasAmericaPerc": 3.0,
+        "female3034": 1461.0,
+        "male1519": 543.0,
         "travelBicycle": 641.0,
-        "overseasSCAsiaPerc": 1.2
-    }
+        "overseasTotalPerc": 39.3
+    },
+    "history_hi": "सिडनी से मुख्य सड़क के दक्षिण किनारे विकसित की है और अब gentrified 19 वीं सदी में एक समृद्ध खरीदारी जिला, और बाद में एक काम वर्ग और प्रवासी उपनगर बन गया है, जो इनर पश्चिम उपनगर.",
+    "economy": {
+        "youthWorkFullStudyPart": 1.1,
+        "bizTotal": 2279.0,
+        "participationRate": 71.9,
+        "averageMortage": 2774.0,
+        "youthWorkPartStudyPart": 0.9,
+        "exitBizTotal": 328.0,
+        "unemplymentRate": 5.3,
+        "averageRental": 1995.0,
+        "youthWorkFullStudyFull": 0.3,
+        "newBizTotal": 386.0,
+        "youthWorkPartStudyFull": 25.4
+    },
+    "industry": {
+        "employerConstruction": 3.2,
+        "employerPublicAdmin": 6.1,
+        "employerMining": 0.2,
+        "employerRental": 1.2,
+        "employerInformation": 7.7,
+        "employerAgriculture": 0.1,
+        "employerWholeSaleTrade": 3.3,
+        "employerElectricity": 0.7,
+        "employerFinancialInsurance": 6.5,
+        "employerHealth": 10.1,
+        "employerAccommodation": 7.6,
+        "employerTransport": 2.6,
+        "employerAdmin": 3.8,
+        "employerManufacturing": 3.5,
+        "employerRetailtrade": 7.1,
+        "totalEmployed": 13323.0,
+        "employerEducation": 12.6,
+        "employerOther": 3.4,
+        "employerScientific": 15.1,
+        "employerArts": 3.5
+    },
+    "history_zh": "Newtown区，从悉尼沿主路南发展，并成为一个繁荣的商圈在19世纪后期，后工薪阶层和农民的郊区，现在绅士化。"
 }
