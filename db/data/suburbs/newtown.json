@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "newtown",
     "history_en": "Inner-west suburb which developed along the main road south from Sydney and became a prosperous shopping district in the late 19th century, and later a working-class and migrant suburb, now gentrified.",
     "name": "Newtown",
@@ -68,7 +68,9 @@
         "travel_walk": 0
     },
     "history_fr": "Banlieue du centre-ouest qui s'est développée le long de la route principale au sud de Sydney et est devenu un quartier prospère commerçant de la fin du 19e siècle, et plus tard, une banlieue ouvrière et les travailleurs migrants, aujourd'hui embourgeoisé.",
-    "description_fr": "Newtown, un quartier de l'ouest intérieur de Sydney est situé à environ quatre kilomètres au sud-ouest du quartier central des affaires de Sydney, à cheval sur les zones de gouvernement local de la ville de Sydney et du Conseil Marrickville dans l'état de New South Wales, en Australie.",
+	"longitude": "151.179963199999970000", 
+	"latitude":"-33.896549300000000000" ,
+   "description_fr": "Newtown, un quartier de l'ouest intérieur de Sydney est situé à environ quatre kilomètres au sud-ouest du quartier central des affaires de Sydney, à cheval sur les zones de gouvernement local de la ville de Sydney et du Conseil Marrickville dans l'état de New South Wales, en Australie.",
     "population": {
         "poputationDensity": 7060.2,
         "female1519": 653.0,

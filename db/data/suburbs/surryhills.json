@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "surryhills",
     "history_en": "Inner-city suburb located immediately to the south east of Sydney's central business district.",
     "name": "Surry Hills",
@@ -68,6 +68,8 @@
         "travel_walk": 0
     },
     "history_fr": "",
+	"longitude": "151.212925400000020000", 
+	"latitude":"-33.890646600000000000" ,
     "description_fr": "",
     "population": {
         "poputationDensity": 12758.7,

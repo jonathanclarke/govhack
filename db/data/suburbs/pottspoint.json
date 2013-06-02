@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "pottspoint",
     "history_en": "Small inner-city suburb east of central Sydney, which is densely populated and contains significant nineteenth-century buildings as well as some of Sydney's earliest apartment buildings in the Art Deco style.",
     "name": "Potts Point",
@@ -68,7 +68,9 @@
         "travel_walk": 0
     },
     "history_fr": "Petit centre-ville banlieue est de centre de Sydney, qui est densément peuplée et contient des bâtiments importants du XIXe siècle ainsi que quelques-uns des plus anciens immeubles de Sydney dans le style Art Déco.",
-    "description_fr": "Potts Point est une petite banlieue densément peuplée du centre-ville de Sydney, dans l'État de New South Wales, en Australie. Potts Point est situé à 3 kilomètres à l'est du quartier d'affaires central de Sydney et fait partie de la zone de gouvernement local de la ville de Sydney.",
+	"longitude": "151.194540400000050000", 
+	"latitude":"-33.869545600000000000",
+	"description_fr": "Potts Point est une petite banlieue densément peuplée du centre-ville de Sydney, dans l'État de New South Wales, en Australie. Potts Point est situé à 3 kilomètres à l'est du quartier d'affaires central de Sydney et fait partie de la zone de gouvernement local de la ville de Sydney.",
     "population": {
         "poputationDensity": 13481.1,
         "female1519": 229.0,

@@ -1,4 +1,4 @@
-{
+﻿{
     "permalink": "erskineville",
     "history_en": "Inner-city suburb to the south-west of Sydney's central business district.",
     "name": "Erskineville",
@@ -67,7 +67,9 @@
         "travel_walk": 0
     },
     "history_fr": "Banlieue du centre-ville vers le sud-ouest du quartier central des affaires de Sydney.",
-    "description_fr": "Erskineville est une banlieue du centre-ville de Sydney, dans l'État de New South Wales, en Australie. Erskineville est situé à environ 3 kilomètres au sud du quartier d'affaires central de Sydney et fait partie de la zone de gouvernement local de la ville de Sydney. Erskineville est officieusement partie de la région de l'Ouest intérieur, mais il est aussi plus correctement considéré comme faisant partie du centre-ville en raison de sa proximité de la ville. Erskineville est familièrement connu comme Erko.",
+	"longitude": "151.184522900000050000", 
+	"latitude":"-33.899808400000000000" ,
+   "description_fr": "Erskineville est une banlieue du centre-ville de Sydney, dans l'État de New South Wales, en Australie. Erskineville est situé à environ 3 kilomètres au sud du quartier d'affaires central de Sydney et fait partie de la zone de gouvernement local de la ville de Sydney. Erskineville est officieusement partie de la région de l'Ouest intérieur, mais il est aussi plus correctement considéré comme faisant partie du centre-ville en raison de sa proximité de la ville. Erskineville est familièrement connu comme Erko.",
     "population": {
         "poputationDensity": 3451.4,
         "female1519": 173.0,
