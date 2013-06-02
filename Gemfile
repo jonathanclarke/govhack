@@ -17,7 +17,7 @@ group :assets do
 end
 
 gem 'activerecord-deprecated_finders'
-
+gem 'geocoder'
 gem 'cancan'
 gem 'capistrano'
 gem 'capistrano-ext'

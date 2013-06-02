@@ -102,6 +102,7 @@ GEM
       nokogiri (~> 1.5.0)
       ruby-hmac
     formatador (0.2.4)
+    geocoder (1.1.8)
     gravtastic (3.2.6)
     guard (1.8.0)
       formatador (>= 0.2.4)
@@ -308,6 +309,7 @@ DEPENDENCIES
   faker
   fakeweb
   fog
+  geocoder
   gravtastic
   guard
   guard-bundler

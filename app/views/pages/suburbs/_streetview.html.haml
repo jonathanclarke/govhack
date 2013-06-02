@@ -1,0 +1,6 @@
+%section#photos.widgit.white
+  %h2= t(:streetview)
+  -# %a{ "http://maps.googleapis.com/maps/api/streetview?size=200&location=#{ @suburb[:longitude] },%20#{ @suburb[:latitude] }&heading=235&sensor=false", :alt => @suburb["name"], :title => @suburb["name"], :rel=>"lightbox[suburb]" }
+  %img{ :src=>"http://maps.googleapis.com/maps/api/streetview?size=200&location=#{ @suburb[:longitude] },%20#{ @suburb[:latitude] }&heading=235&sensor=false", :alt => @suburb["name"], :title => @suburb["name"] }
+  lONG
+  = @suburb["longitude"].inspect

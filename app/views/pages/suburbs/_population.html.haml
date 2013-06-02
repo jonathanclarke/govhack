@@ -6,7 +6,3 @@
   %p      
     - (0...@suburb["summary"]["male"].to_i).each do |i|
       = image_tag "male.png", :size => "20x20"
-  %p
-    %span
-      Ethnicity:
-    = @suburb["summary"]["ethnicity"]
