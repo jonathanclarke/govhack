@@ -8,10 +8,10 @@
     "longitude": "151.201865199999930000",
     "suburbs":
     [
-	{ "name": "Newtown", "permalink": "newtown", "longitude": "", "latitude":"" },
-	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" },
-	{ "name": "Glebe", "permalink": "glebe", "longitude": "", "latitude":"" },
-	{ "name": "Redfern", "permalink": "redfern", "longitude": "", "latitude":"" }
+	{ "name": "Newtown", "permalink": "newtown", "longitude": "151.179963199999970000", "latitude":"-33.896549300000000000" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "151.20171779999998", "latitude":"-33.892507" },
+	{ "name": "Glebe", "permalink": "glebe", "longitude": "151.1883183", "latitude":"-33.8811282" },
+	{ "name": "Redfern", "permalink": "redfern", "longitude": "151.201717799999980000", "latitude":"-33.892507000000000000" }
     ]
     
 }
