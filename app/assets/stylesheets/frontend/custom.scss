@@ -92,45 +92,10 @@ header{
 
 #suburb-show{
    section.widgit{
-      border:1px solid red;
-      background-color: yellow;
-      padding: 10px;
-      -moz-border-radius: 15px;
-      border-radius: 15px;
-      margin-bottom: 20px;
-      -moz-box-shadow: 10px 10px 5px #888;
-      -webkit-box-shadow: 10px 10px 5px #888;
-      box-shadow: 10px 10px 5px #888;
       h2{
          font-size: 24px;
       }
       
-   }
-   section.yellow{
-      border: 2px solid rgb(241, 196, 15);
-      background-color: rgb(241, 196, 15);
-      h2{
-         color: #fff;
-      }
-   }
-
-
-   section.white{
-      border: #fff;
-      background-color: #fff;
-      h2{
-         color: #000;
-         
-      }
-   }
-
-   section.green{
-      border: 2px solid rgb(26, 188, 156);
-      background-color: rgb(26, 188, 156);
-      h1{
-         color: #fff;
-         
-      }
    }
    .suburb.span12{
       border:1px solid #666;
