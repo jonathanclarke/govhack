@@ -18,8 +18,6 @@ end
 
 gem 'activerecord-deprecated_finders'
 
-gem 'asset_sync'
-gem 'aws-sdk'
 gem 'cancan'
 gem 'capistrano'
 gem 'capistrano-ext'

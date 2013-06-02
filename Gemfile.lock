@@ -39,9 +39,6 @@ GEM
     addressable (2.3.4)
     ansi (1.4.3)
     arel (4.0.0)
-    asset_sync (0.5.4)
-      activemodel
-      fog
     atomic (1.1.9)
     autotest (4.4.6)
       ZenTest (>= 4.4.1)
@@ -53,10 +50,6 @@ GEM
     autotest-rails (4.1.2)
       ZenTest (~> 4.5)
     autotest-standalone (4.5.11)
-    aws-sdk (1.11.0)
-      json (~> 1.4)
-      nokogiri (>= 1.4.4)
-      uuidtools (~> 2.1)
     bcrypt-ruby (3.0.1)
     builder (3.1.4)
     cancan (1.6.10)
@@ -299,11 +292,9 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-deprecated_finders
-  asset_sync
   autotest-inotify
   autotest-notification
   autotest-rails
-  aws-sdk
   cancan
   capistrano
   capistrano-ext
