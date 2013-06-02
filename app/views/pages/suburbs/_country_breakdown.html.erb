@@ -1,22 +1,21 @@
 <%= content_for(:js_header) do %>
   <%= javascript_include_tag "http://d3js.org/d3.v2.js" %>
 <% end %>
-<%= @suburb_data %>
 <script type="text/javascript">
 
 //////////// READY ///////////
 jQuery(document).ready(function() {
 var a = "<%= @suburb["summary"]["ethnicity"] %>";
 var decoded = jQuery("<div/>").html(a).text();
-console.log(decoded);
+
 doBornPieChart(decoded);
 });
 /////////////////////////////
 
 function doBornPieChart(dataObj) {
-alert(dataObj);
+
 	// This is an array.
-	ethBreak = eval(dataObj);
+	ethBreak = JSON.parse(dataObj);
 	
 	var w = 300, //width
 	h = 200, //height

@@ -1,0 +1,10 @@
+%section#photos.widgit.white
+  %h2
+    = t(:country)
+   
+  - @suburb["summary"]["ethnicity"].each do |a|
+    %p
+      %span
+        = "#{ a["value"] }%:"
+      %strong
+        = "#{ a["key"] }:"
